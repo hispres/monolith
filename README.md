@@ -17,5 +17,5 @@ http http://localhost:8088/orders/1/delivery
 http PATCH localhost:8088/deliveries/1 deliveryState=DeliveryCompleted
 
 
--- 주문 취소 하기 test
+-- 주문 취소 하기 tes
 http PATCH localhost:8088/orders/1 state=OrderCancelled
